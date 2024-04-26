@@ -41,7 +41,7 @@ export function renderCards() {
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                                <button type="button" id="btn-modal-${product.id}" class="btn btn-primary">Comprar</button>
+                                <button type="button" id="btn-modal-${product.id}" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Comprar</button>
                             </div>`;
                         
                      modalContainer.innerHTML = modal;       
